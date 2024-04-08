@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="bigContainer">
+        <div class="regPage">
+
+            <div class="firstPart">
+                <h1>Registration Page</h1>
+            </div>
+
+            <div class="secondPart">
+
+               <form action="">
+
+                <label for="userName"> Username:
+                    <input type="text" id="userName" placeholder="First Name" required>
+                </label> <br>
+
+                <label for="emailAdd"> Enter Valid Email:
+                    <input type="email" id="emailAdd" placeholder="Enter Valid Email Address" required>
+                </label> <br>
+
+                <label for="userPassA"> Enter Password:
+                    <input type="password" id="userPassA" placeholder="Enter Passowrd" required>
+                </label> <br>
+
+
+                <label for="userPassB"> Confirm Password:
+                    <input type="password" id="userPassB" placeholder="Confirm Passowrd" required>
+                </label> <br>
+
+            </form>
+              
+            </div>
+
+
+            <div class="thirdPart">
+
+                <div class="termConditions">
+                    <input type="checkbox" name="" id="checker">
+                    <label for=""><a href="#">Click Here To Agree With Our Terms And term and Conditions</a></label>
+                </div>
+
+
+                <div class="SignUpBtn">
+                    <button id="submitBtn" onclick="userSubmit()">Click To Submit </button>
+                </div>
+
+            </div>
+
+        </div>
+
+  
+
+
+
+        <div class="loginPage">
+
+            <div class="logPage">
+
+                <div class="firstLogPart">
+                    <h1>Login Page</h1>
+                </div>
+
+                <div class="secondLogPart">
+
+                    <label for=""> Enter Your Username:
+                        <input type="text" id="userNameNow" placeholder=" Enter Username">
+                    </label> <br>
+
+                    <label for=""> Enter Password:
+                        <input type="password" id="userPass" placeholder="Enter Passowrd">
+                    </label> <br>
+                </div>
+
+                <div class="LogSignUpBtn">
+                    <button onclick="userlogin()">Click To Login </button>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+
+
+    </div>
+
+
+<div class="secondContainer">
+
+<table>
+
+    <thead id="tableHead">
+
+        <th>userName</th>
+        <th> Email Address</th>
+        <th> Password</th>
+        <th> Confirm Password</th>
+        <th> Checked</th>
+    </thead>
+    
+    <tbody id="tableBody">
+ 
+    </tbody>
+
+
+
+</table>
+
+
+
+
+</div>
+
+
+</body>
+
+</html>
+<script src="main.js"></script>

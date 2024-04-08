@@ -1,0 +1,222 @@
+
+
+
+
+.regPage{
+    width: fit-content;
+    height: 60vh;
+    border: 3px solid #891652;
+    background-color: #D9EDBF;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 2px 2px 5px 5px #67C6E3;
+}
+
+.logPage{
+
+        width: fit-content;
+        height: 35vh;
+        border: 3px solid #891652;
+        background-color: #D9EDBF;
+        box-shadow: 2px 2px 5px 5px #67C6E3;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+}
+
+.firstLogPart{
+    height: 20%;
+    width: 100%;
+    border-bottom: 1px solid black;
+    background-color: #2C7865;
+    padding: 10px 0px;
+}
+
+.firstLogPart h1{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #A0153E;
+    text-transform: uppercase;
+    font-weight: 600;
+  
+ }
+
+.secondLogPart{
+    height: 30%;
+    padding: 20px 10px;
+}
+
+.secondLogPart label{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.secondLogPart input{
+    width: 150px;
+    height: 20px;
+}
+
+.LogSignUpBtn{
+    height: 40%;
+    border-top: 2px solid #2C7865;
+    padding: 10px 0px;
+}
+
+
+.LogSignUpBtn button{
+    padding: 15px 90px;
+    border-radius: 20px;
+    background-color: #E8751A;
+    color: white;
+    border: none;
+    text-transform: uppercase;
+    font-size: 18px;
+
+}
+
+
+
+
+
+
+
+.firstPart{
+    height: 15%;
+    width: 100%;
+    border-bottom: 1px solid black;
+    background-color: #2C7865;
+}
+
+.firstPart h1{
+   text-align: center;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   color: #A0153E;
+   text-transform: uppercase;
+   font-weight: 600;
+}
+
+.secondPart{
+    height: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items:  baseline;
+    padding: 30px 10px;
+}
+
+
+.secondPart label{
+    font-size: 18px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 400px;
+
+}
+
+.secondPart input{
+    width: 200px;
+    height: 20px;
+}
+
+.termConditions{
+    padding: 10px 5px;
+}
+
+.termConditions label a{
+    font-size: 16px;
+    text-decoration: none;
+    color: black;
+    text-wrap: wrap;
+}
+
+
+.thirdPart{
+    height: 20%;
+    width: 100%;
+    border-top: 2px solid green;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.SignUpBtn{
+    text-align: center;
+    padding: 20px 0px;
+}
+.SignUpBtn button{
+    padding: 20px 90px;
+    border-radius: 20px;
+    background-color: #E8751A;
+    color: white;
+    border: none;
+    text-transform: uppercase;
+    font-size: 18px;
+
+}
+
+
+.bigContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 50px 100px;
+}
+
+.secondContainer{
+    border-top: 5px solid #2C7865;
+    height: 100vh;
+}
+
+
+table, th, td{
+    border: 1px solid ;
+    width: 70%;
+}
+
+
+table{
+    margin: 50px auto;
+    border-collapse: collapse;
+    font-size: 18px;
+}
+
+th{
+    height: 70px;
+}
+
+th, td{
+    text-align: center;
+}
+
+tbody:hover {
+    background-color: coral;
+}
+
+td, th{
+    width: 25%;
+}
+
+td{
+    height: 50px;
+}
+
+#tableHead{
+    background-color: #114232;
+}
+
+#tableBody{
+    background-color: #D7E4C0;
+}
+
+
+@media (max-width: 960px){
+
+    .bigContainer{
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        align-items: center;
+    }
+}

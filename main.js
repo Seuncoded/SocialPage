@@ -12,7 +12,6 @@ let formNow = document.getElementById('formNow')
 let store = JSON.parse(localStorage.getItem("userDetails")) || []
 
 function userSubmit() {
-
     if (userName.value == '' || emailAdd.value == '' || userPassA.value == '' || userPassB.value == '') {
         alert("Fill All The Required Field")
     } else if (userPassA.value !== userPassB.value) {
